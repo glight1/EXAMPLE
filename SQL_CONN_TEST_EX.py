@@ -6,7 +6,7 @@ driver = '{ODBC Driver 13 for SQL Server}'
 server = 'EXAMPLE'
 db = 'SUPER_SECRET_DATA'
 uid = ''
-pwd = ''
+pwd = 'test'
 
 # connection String
 conn = pyodbc.connect('DRIVER=' + driver + ';SERVER=' + server + ';DATABASE=' + 
